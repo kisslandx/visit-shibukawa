@@ -1,0 +1,109 @@
+:root {
+  --ink-black: #111925ff;
+  --prussian-blue: #122235ff;
+  --coffee-bean: #20150cff;
+  --jet-black: #272d31ff;
+  --sand-dune: #e0d7baff;
+  --calm-white: #f5f3f0;
+}
+
+body {
+  text-align: center;
+  font-family: "IBM Plex Serif", serif;
+  margin: 0;
+  height: 200%;
+  padding-bottom: 150px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  width: 100%;
+  background-image: url("./images/gerbe-dumahil-fujiwara-tofu-shop-night-scene.jpg");
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-position: 50% 80%;
+  color: var(--calm-white);
+}
+
+.hero__titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hero__maint {
+  font-size: 2.5rem;
+  background: #ffedd8;
+  color: var(--coffee-bean);
+  padding: 5px 20px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+#hero__subt {
+  font-size: 1.5rem;
+  width: 400px;
+  background-color: #8b5e34;
+  color: var();
+  padding: 5px 15px;
+  border-radius: 5px;
+  text-shadow: 0 0 5px black;
+}
+
+#activities__title {
+  font-size: 1.5rem;
+  padding: 15px;
+  background-color: var(--sand-dune);
+}
+
+.activities {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--sand-dune);
+  height: 400px;
+  padding-top: 15px;
+}
+
+.activities__img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.activities__h4-margin {
+  margin-top: 20px;
+}
+
+.guide {
+  display: flex;
+  width: 600px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background: #181f27;
+  color: var(--calm-white);
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  border-bottom: 10px solid #8b5e34;
+}
+
+#takumi-img {
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.quote {
+  margin: 50px 0;
+  font-style: italic;
+}
